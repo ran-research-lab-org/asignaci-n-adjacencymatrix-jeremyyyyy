@@ -8,4 +8,10 @@ int main() {
   G.addEdge(4, 2);
 
   G.print();
+
+ cout << endl << G.numEdges() << endl;
+ cout << G.inDegree(9) << endl;
+ cout << G.inDegree(0) << endl;
+ cout << G.isInfluencer(9) << endl;
+ cout << G.isInfluencer(0) << endl;
 }
